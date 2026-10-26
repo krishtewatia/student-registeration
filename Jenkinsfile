@@ -12,7 +12,7 @@ pipeline {
         stage('Run Automated Tests') {
             steps {
                 echo 'Testing the student registration form...'
-                bat 'python test_form.py'
+                bat '"C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\python.exe" test_form.py'
             }
         }
     }
